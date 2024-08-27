@@ -1,3 +1,8 @@
+
+
+
+
+
 function getComputerChoice() {
 
     let max = 3
@@ -124,9 +129,13 @@ function getComputerChoice() {
     if(humanScore < computerScore) {alert("YOU LOSE");}
     
     
+    return "Over"
+    } 
+
+   
+   alert(playGame())
+
     
-    
-    }
     
     
     
